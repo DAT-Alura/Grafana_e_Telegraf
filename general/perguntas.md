@@ -111,3 +111,17 @@ Tais afirmações se referem, respectivamente:
 - __Ambas as alternativas citadas__
 - Podemos utilizar o mouse no formato Point And Click, onde selecionamos as métricas e definimos as características do painel
 - Podemos utilizar queries do tipo SQL para consultar no InfluxDB as métricas e definir as informações que serão exibidas
+
+## Aula 6
+
+1 - Das alternativas abaixo, escolha a que lista somente as ferramentas de notificação presentes no Grafana.
+
+- Discord, Kafka, Slack, Telegram, Microsoft Teams e IRC
+- __Discord, Kafka, Slack, Telegram, Microsoft Teams e Google Hangouts__
+- Discord, Kafka, Slack, Telegram e WhatsApp
+
+2 - Como comentamos no início do curso, o conceito de monitoramento envolve, além de outras coisas, o conceito de NOC. Escolha a alternativa que explica a importância desse componente.
+
+- NOC - Network Operation Center, consiste em um conjunto de administradores de sistema reunidos para monitorar, gerenciar e controlar um sistema baseado em métricas e ferramentas
+- __Ambas as alternativas estão corretas. O conceito de NOC é que, nesse centro, o time de suporte garanta um monitoramento ativo e eficaz__
+- É na NOC que colocamos em produção os nossos dashboards produzidos no Grafana, com as métricas que coletamos com o Telegraf e injetamos no InfluxDB, para garantir a estabilidade e saúde do nosso sistema

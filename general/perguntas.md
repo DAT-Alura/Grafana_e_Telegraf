@@ -21,3 +21,17 @@
 - São complementares à análise tradicional do comportamento do sistema. Com uma precisão próxima da real, as métricas exibidas são importantes para insights do comportamento geral
 - __São complementares à análise tradicional do comportamento do sistema. Os valores são precisos, pois foram coletados em tempo de execução__
 - Preferencialmente devemos analisar os logs da aplicação e do sistema. Os dashboards são imprecisos e lentos.
+
+## Aula 2
+
+1 - Sobre o conceito de coletores de métricas e bancos de dados temporais (time series databases), podemos afirmar, respectivamente:
+
+- __São complementares, o primeiro faz uma "raspagem" de dados no sistema e injeta os valores no segundo, que mantém um histórico temporal dos dados, para análises futuras__
+- São independentes, o primeiro, sozinho, é capaz de analisar as métricas e exibir o comportamento do sistema ao passar do tempo. O segundo deve ser utilizado quando for necessária a análise de séries de tempo maiores que um dia
+- Eventualmente podemos utilizar somente o Grafana para armazenar os dados em conjunto com o Telegraf
+
+2 - O que melhor define um data source no Grafana?
+
+- É a parte responsável por configurar onde os dados serão armazenados no Grafana
+- É nessa parte do Grafana que definimos o principal repositório de dados para análise do comportamento do sistema que eles aparecerem
+- __É nessa parte do sistema que definimos múltiplos repositórios de dados para montarmos nossos dashboards__

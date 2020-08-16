@@ -73,3 +73,18 @@ Qual(is) sentença(s) reflete(m) a(s) motivação(ões) para a coleta dessa mét
 - Apenas a sentença 1
 - Apenas a sentença 2
 - __Ambas as sentenças__
+
+## Aula 4
+
+1 - É possível analisar métricas de servidores Docker distintos? Como?
+
+- Podemos utilizar o plugin do Docker do Telegraf, e apontar para outras instâncias do Docker
+- __Ambas as alternativas__
+- Utilizar o Telegraf em outros servidores e apontar sua configuração para o servidor onde o InfluxDB está rodando, e no painel, podemos utilizar as variáveis do dashboard para mudar qual instância gostaríamos de visualizar
+
+2 - O que é responsável por permitir métricas adicionais no Grafana, além das métricas padrão?
+
+- Variáveis de dashboards para separar as métricas que desejamos visualizar
+- __Diferentes measurements no InfluxDB__
+> Alternativa correta! Como o InfluxDB é um banco de dados independente, podemos apontar os plugins para gravar dados em measurements distintos, como por exemplo o Docker.
+- Múltiplos data sources

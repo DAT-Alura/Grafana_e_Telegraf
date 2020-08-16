@@ -88,3 +88,26 @@ Qual(is) sentença(s) reflete(m) a(s) motivação(ões) para a coleta dessa mét
 - __Diferentes measurements no InfluxDB__
 > Alternativa correta! Como o InfluxDB é um banco de dados independente, podemos apontar os plugins para gravar dados em measurements distintos, como por exemplo o Docker.
 - Múltiplos data sources
+
+## Aula 5
+
+1 - Sobre a saúde da aplicação, escolha a alternativa que representa uma boa prática de desenvolvimento e monitoramento:
+
+- Recomenda-se deixar um mecanismo para ligar os logs somente quando vamos fazer o tracking de alguma issue
+- __Logs objetivos, concisos, com uma coleta regular de métricas__
+- Logs concisos e curtos, para evitar deixar o filesystem muito cheio, o que pode degradar o desempenho geral do sistema
+
+2 - Dadas as seguintes afirmações:
+- São logs dos eventos dos motores das aplicação, como Apache, JBoss e Node.js
+- São os logs que resumem o comportamento da aplicação e eventualmente as regras de negócio implementadas
+Tais afirmações se referem, respectivamente:
+
+- __Logs de sistema e logs da aplicação__
+- São logs que devem ser gravados no mesmo arquivo/diretório, independente do tipo
+- Logs da aplicação e logs de sistema
+
+3 - Escolha, dentre das opções abaixo, a que reflete as maneiras de selecionar os dados no InfluxDB para gerar os painéis:
+
+- __Ambas as alternativas citadas__
+- Podemos utilizar o mouse no formato Point And Click, onde selecionamos as métricas e definimos as características do painel
+- Podemos utilizar queries do tipo SQL para consultar no InfluxDB as métricas e definir as informações que serão exibidas
